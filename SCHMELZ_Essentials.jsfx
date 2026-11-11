@@ -1,5 +1,5 @@
 desc:       SCHMELZ Essentials
-  version:    2.0.0
+  version:    2.0.1
   author:     schlacke
   tags:       saturation, colour, EQ, compressor, stereo, clipper, character
   license:    GPL-3.0-or-later
@@ -104,7 +104,7 @@ slider35:0<-12,24,0.1>-Clip Drive (dB)
 slider36:0<0,1,1{Off,On}>-Clip IN
 slider37:0<0,100,1>-Clip Weight (%)
 slider38:0<0,1,1{Post Drive,Pre Drive}>-Clip Weight Mode
-slider39:-0.3<-6,0,0.1>-Clip Ceiling (dBFS)
+slider39:-1<-6,0,0.1>-Clip Ceiling (dBFS)
 slider40:0.5<0.5,22,0.1>-Clip Depth (dB)
 slider41:100<0,100,1>-Clip Blend (%)
 slider42:9<9,100,1:log>-Clip Sub Cut (Hz)
@@ -3746,7 +3746,7 @@ SF_G[122] = "AjXjAAXA"; SF_W[122] = 4.60;   // z
   PT[288] = 0; PT[289] = 1; PT[290] = 0; PT[291] = 1; PT[292] = 0; PT[293] = 1; PT[294] = 2; PT[295] = 0;
   PT[296] = 0; PT[297] = 100; PT[298] = 0; PT[299] = 1; PT[300] = 0; PT[301] = 0; PT[302] = 0; PT[303] = 3;
   PT[304] = 0; PT[305] = 1; PT[306] = 0; PT[307] = 1; PT[308] = 0; PT[309] = 3; PT[310] = 2; PT[311] = 0;
-  PT[312] = -6; PT[313] = 0; PT[314] = -0.3; PT[315] = 0.1; PT[316] = 0; PT[317] = 0; PT[318] = 0; PT[319] = 5;
+  PT[312] = -6; PT[313] = 0; PT[314] = -1; PT[315] = 0.1; PT[316] = 0; PT[317] = 0; PT[318] = 0; PT[319] = 5;
   PT[320] = 0.5; PT[321] = 22; PT[322] = 0.5; PT[323] = 0.1; PT[324] = 0; PT[325] = 0; PT[326] = 0; PT[327] = 1;
   PT[328] = 0; PT[329] = 100; PT[330] = 100; PT[331] = 1; PT[332] = 0; PT[333] = 0; PT[334] = 0; PT[335] = 3;
   PT[336] = 9; PT[337] = 100; PT[338] = 9; PT[339] = 1; PT[340] = 1; PT[341] = 0; PT[342] = 0; PT[343] = 8;
